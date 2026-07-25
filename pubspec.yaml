@@ -19,6 +19,7 @@ dependencies:
   # State Management & Dependency Injection
   flutter_bloc: ^9.1.1
   get_it: ^9.2.1
+  injectable: ^3.0.0
 
   # Networking & Data Handling
   dio: ^5.4.0
@@ -35,19 +36,18 @@ dependencies:
   flutter_screenutil: ^5.9.3
   hydrated_bloc: ^11.0.0
   path_provider: ^2.1.6
-  injectable: ^3.0.0
+  
 
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-  # Code Generation Tools (Pinned to compatible versions)
   build_runner: ^2.4.9
   freezed: ^3.2.5
   json_serializable: ^6.8.0
   retrofit_generator: ^10.2.8
   flutter_lints: ^6.0.0
+  injectable_generator: ^3.0.2
 
 
 
