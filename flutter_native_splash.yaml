@@ -10,5 +10,5 @@ flutter_native_splash:
   android_12:
     # background color
     color: "#42a5f5"
-    image: assets/images/splash/docdoc_splash.png
+    image: assets/images/logo/docdoc_logo.png
     icon_background_color: "#111111"

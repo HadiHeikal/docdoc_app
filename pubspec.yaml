@@ -58,6 +58,7 @@ flutter:
     - assets/svgs/
     - assets/images/splash/
     - assets/images/onboarding/
+    - assets/images/logo/
 
   fonts:
     - family: Inter
