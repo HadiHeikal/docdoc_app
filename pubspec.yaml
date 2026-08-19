@@ -14,7 +14,7 @@ dependencies:
 
   # UI & Icons
   cupertino_icons: ^1.0.8
-  flutter_native_splash: ^2.4.0
+  flutter_native_splash: ^2.4.8
 
   # State Management & Dependency Injection
   flutter_bloc: ^9.1.1
@@ -55,9 +55,10 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/svgs/docdoc_logo.svg
-    - assets/svgs/docdoc_logo_low_opacity.svg
-    - assets/images/onboarding/onboarding_doctor_image.png
+    - assets/svgs/
+    - assets/images/splash/
+    - assets/images/onboarding/
+    - assets/images/logo/
 
   fonts:
     - family: Inter
