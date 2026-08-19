@@ -2,13 +2,13 @@ flutter_native_splash:
   #! ANDROID/IOS below 12 configuration 
   color: "#ffffff"  ##====================================[REQUIRED]==========
   #color_dark: "#042a49"
-  image:                assets/images/splash/docdoc_splash.png
+  image:                assets/images/logo/docdoc_logo_splash.png
   #image_dark:          assets/splash-invert.png
   fullscreen: true                # default false
   
   #! ANDROID 12+ configuration:
   android_12:
     # background color
-    color: "#42a5f5"
-    image: assets/images/logo/docdoc_logo.png
+    color: "#ffffff"
+    image: assets/images/logo/docdoc_logo_splash.png
     icon_background_color: "#111111"
