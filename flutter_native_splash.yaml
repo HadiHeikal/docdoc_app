@@ -1,14 +1,15 @@
 flutter_native_splash:
-  #! ANDROID/IOS below 12 configuration 
-  color: "#ffffff"  ##====================================[REQUIRED]==========
+  #! ANDROID/IOS below 12 configuration
+  #color: "#ffffff"  ##====================================[REQUIRED]==========
   #color_dark: "#042a49"
-  image:                assets/images/logo/docdoc_logo_splash.png
-  #image_dark:          assets/splash-invert.png
+  # background_image fills the entire screen (android:gravity="fill"), unlike
+  # `image` which is centered at fixed size. color and background_image are
+  # mutually exclusive, so color above is commented out.
+  background_image:    assets/images/splash/docdoc_splash.png ##==[REQUIRED]====
   fullscreen: true                # default false
   
   #! ANDROID 12+ configuration:
   android_12:
     # background color
     color: "#ffffff"
-    image: assets/images/logo/docdoc_logo_splash.png
-    icon_background_color: "#ffffff"
+    image: assets/images/logo/logo_docdoc.png
